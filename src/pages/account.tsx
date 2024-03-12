@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Home = () => {
+const Account = () => {
     
     const containerStyle: React.CSSProperties = {
         textAlign: 'center',
@@ -21,12 +21,12 @@ const Home = () => {
 
     return (
         <div style={containerStyle}>
-            <h2 style={headingStyle}>Home</h2>
+            <h2 style={headingStyle}>Account</h2>
             <p style={paragraphStyle}>
-                This is the Home screen of our application.
+                This is the Account screen of our application.
             </p>
         </div>
     );
 };
 
-export default Home;
+export default Account;
